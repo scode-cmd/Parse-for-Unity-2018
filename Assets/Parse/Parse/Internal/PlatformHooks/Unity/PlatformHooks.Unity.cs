@@ -1162,7 +1162,7 @@ namespace Parse {
       isWebPlayer = false;
       osVersion = SystemInfo.deviceModel;
       appBuildVersion = Application.version;
-      appDisplayVersion = "1.0";
+      appDisplayVersion = Application.version;
       appName = Application.productName;
 
       settings = SettingsWrapper.Wrapper;
